@@ -1,0 +1,15 @@
+canvas {
+    border:2px black dashed ;
+    animation-name:Sarthak;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Sarthak{
+    from{box-shadow: 1px 1px 38px turquoise;}
+    to{box-shadow: 1px 1px 38px rgb(220, 103, 20);}
+}
+
+.btn-success:hover{
+    background-color: yellowgreen;
+}
